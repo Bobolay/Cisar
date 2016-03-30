@@ -1,0 +1,141 @@
+.stub-wrapper
+	height: 100vh
+.photo-container
+	width: 45%
+	height: inherit
+	float: left
+	background-size: cover
+	background-position: center
+	position: relative
+	@media only screen and (max-width: 800px)
+		width: 100%
+	.red-label
+		position: absolute
+		top: 100px
+		left: 0
+		background-color: #BE350B
+		width: 350px
+		.font24
+			color: white
+			font-weight: bold
+			padding: 18px 30px
+.stub-container
+	width: 55%
+	height: inherit
+	float: left
+	position: relative
+	color: #3D2622
+	@media only screen and (max-width: 800px)
+		width: 100%
+		clear: both
+		position: absolute
+		top: 400px
+.stub-top
+	.crown-container
+		position: relative
+		margin-top: 80px
+		width: 350px
+		border-bottom: 1px solid rgba(61,38,34, .2)
+		svg
+			position: relative
+			top: 5px
+			left: 20px
+		.font18
+			position: absolute
+			left: 127px
+			top: 95px
+		.font51
+			color: #BE350B
+			position: absolute
+			left: 125px
+			top: 110px
+		&:after
+			content: ''
+			background-color: #BE350B
+			width: 8px
+			height: 8px
+			transform: rotate(45deg)
+			position: absolute
+			right: -5px
+			bottom: -4px
+.stub-middle
+	width: 80%
+	margin: 0 auto
+	margin-top: 50px	
+	.font28
+		color: #BE350B
+		font-style: italic
+		margin-bottom: 20px
+	.font18
+		opacity: 0.7
+		margin-bottom: 30px
+	.hotel-room-container
+		display: inline-block
+		position: relative
+		border: 1px solid rgba(61,38,34, .2)
+		width: 70px
+		height: 90px
+		margin-right: 70px
+		margin-bottom: 15px
+		.font32
+			color: #3D2622
+			opacity: 0.8
+			text-align: center
+			margin-top: 20px
+		.font18
+			position: absolute
+			color: #BE350B
+			left: 25px
+			font-style: italic
+			opacity: 1
+			background: url(#{asset_path('stub/Texture.png')})
+.stub-bottom
+	position: absolute
+	bottom: 0
+	height: 200px
+	width: 100%
+	background-color: #3D2622
+	color: #fff
+	@media only screen and (max-width: 1280px)
+		height: 300px
+.contacts-container
+	width: 80%
+	height: 100%
+	margin: 0 auto
+	margin-top: 50px
+	.left-contacts
+		float: left
+		margin-right: 50px
+		margin-bottom: 20px
+		.svg-block
+			display: inline-block
+			float: left
+		.phone-numbers
+			float: left
+			padding-left: 15px
+		.font20
+			padding-bottom: 15px
+			display: inline-block
+		.font22
+			font-style: italic
+			opacity: 0.7
+		svg
+			position: relative
+			top: 3px
+	.right-contacts
+		float: left
+		.svg-block
+			display: inline-block
+			float: left
+		.phone-numbers
+			float: left
+			padding-left: 15px
+		.font20
+			display: inline-block
+			padding-bottom: 15px
+		.font22
+			font-style: italic
+			opacity: 0.7
+		svg
+			position: relative
+			top: 5px

@@ -1,0 +1,36 @@
+.stub-wrapper
+	.photo-container style="background-image: url(#{asset_path('stub/Background.png')})"
+		.red-label
+			p.font24.uppercased відкриття 25 квітня
+	.stub-container style="background-image: url(#{asset_path('stub/Texture.png')})"
+		.stub-top
+			.crown-container
+				= inline_svg "stub/crown.svg", class: "crown"
+				p.font18 Готель
+				p.font51.uppercased цісар
+		.stub-middle	
+			p.font28 З 25 квітня ми відчиняємо свої двері для жителів та гостей міста!
+			p.font18 Але наш сайт ще перебуває у стадії розробки.
+			.hotel-room-container
+				p.font32 4
+				p.font18 Одномісні
+			.hotel-room-container
+				p.font32 19
+				p.font18 Двомісних
+			.hotel-room-container
+				p.font32 23
+				p.font18 Трьомісних
+		.stub-bottom
+			.contacts-container
+				.left-contacts
+					.svg-block = inline_svg "stub/phone.svg"
+					.phone-numbers	
+						p.font20 Резервація номерів
+						p.font22 +38 (032) 253 3565
+						p.font22 +38 (094) 993 5565
+						p.font22 +38 (067) 193 2444
+				.right-contacts
+					.svg-block = inline_svg "stub/mail.svg"
+					.phone-numbers
+						p.font20 Інформаційні питання
+						p.font22 cisar.lviv@gmail.com
